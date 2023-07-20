@@ -1,0 +1,56 @@
+#addBtn,#inputBox{
+ margin:  0 0.2rem;
+ padding: 0.5rem;
+}
+.container{
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 1rem;
+  width: 100vw;
+}
+.task{
+  border:2px solid green;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  padding: 0.7rem 2rem;
+  width: auto;
+  text-align: center;
+  transition: 1s;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+#inputBox{
+  border:none;
+  border:2px solid gray;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.5s;
+}
+#inputBox:focus{
+  border-color: rgb(160, 2, 81);
+}
+.inputContainer{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#taskContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.completed{
+  border: 2px solid tomato;
+  text-decoration: line-through;
+  opacity: 0.5;
+  color:red;
+}
